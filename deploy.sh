@@ -19,7 +19,7 @@ if [ -z "$GITHUB_TOKEN" ]; then
   githubUrl=git@github.com:365soft/softhub.git
 else
   msg='来自 Github actions 的自动部署'
-  githubUrl=https://365soft:${GITHUB_TOKEN}@365soft/365soft/softhub.git
+  githubUrl=https://365soft:${GITHUB_TOKEN}@github.com/365soft/softhub.git
   #githubUrl=https://github.com/365soft/softhub.git
   git config --global user.name "365soft"
   git config --global user.email "flyyhui@qq.com"
