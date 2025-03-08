@@ -2,30 +2,30 @@
 home: true
 # heroImage: # ./img/logo.jpg
 heroText: 软件互助学习小站 #金蝶EAS系统帮助中心
-tagline: 🚀持续完善 点滴进步
+tagline: 🚀分享、互助、学习、交流、进步！
 # actionText: 开始使用 →
 # actionLink: ./list/
 
 action: 
-  - text: 新版完善中 →
-    link: ./list/
-  - text: 旧版手册 ↗
-    link: ./pages/old/
+  - text: 软件下载 →
+    link: ./download/
+  - text: 使用教程 #↗
+    link: ./study/
 
-bannerBg: auto # none # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | none => 无 | '大图地址' | background: 自定义背景样式       提示：如发现文本颜色不适应你的背景时可以到palette.styl修改$bannerTextColor变量
+bannerBg: none # none # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | none => 无 | '大图地址' | background: 自定义背景样式       提示：如发现文本颜色不适应你的背景时可以到palette.styl修改$bannerTextColor变量
 
 
 
 features: # 可选的
-  - title: 基础入门
-    details: 了解零售系统的基本概念、基本操作，基本设置
+  - title: 装机必备
+    details: 系统安装、激活、重装、系统优化、系统安全、系统故障处理
     link: ./pages/abc/
-  - title: 系统应用质量检查体系
-    details: 通过规范系统应用，促进经营管理改善、促进数据统计准确、减少管理风险
+  - title: 办公软件
+    details: office、wps、visio、excel、ppt、pdf等办公软件使用技巧
     link: ./list/#整体专项
     #link: ./pages/auto4s-sdv/
-  - title: 问题集锦
-    details: 为您答疑解惑，让你从容使用系统
+  - title: 常用工具
+    details: 软件下载、软件安装、软件破解、软件使用技巧、软件故障处理
     link: ./pages/faq/
 
 showarticlelistblock: true     #true不显示文章分组块，false显示文章分组块
@@ -82,25 +82,25 @@ articlelistside: # 可选的
     keyname: 问题集锦  #分类或标签
     articleLength: 20
     icon: biaoqian1
-  - listname: 系统安装
+  - listname: 问题集锦
     listauto: auto
     listlink: ./categories/?category=系统安装
     categoryortag: category    #值只能是category 或 tag
-    keyname: 系统安装
+    keyname: 问题集锦
     articleLength: 5
     icon: biaoqian1
   - listname: 系统应用检查体系
     listauto: auto
     listlink: ./categories/?category=检查体系
     categoryortag: category    #值只能是category 或 tag
-    keyname: 系统应用检查体系
+    keyname: 问题集锦
     articleLength: 10
     icon: biaoqian1
   - listname: 审批工作流
     listauto: auto
     listlink: ./categories/?category=审批工作流
     categoryortag: category    #值只能是category 或 tag
-    keyname: 审批工作流
+    keyname: 问题集锦
     articleLength: 10
     icon: biaoqian1
 

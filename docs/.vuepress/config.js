@@ -9,7 +9,7 @@ module.exports = {
   theme: require.resolve('../../vdoing'), // 使用本地主题
   // 如果使用 locales 的 title 和 description，则下方的 title 和 description 失效
   // title: penName + title,
-  // description: '零售系统应用帮助中心,金蝶EAS,汽车4S,整车,二手车,保险,维修,会员,客服,财务,供应链,精品,应收,应付,存货核算,固定资产',
+  // description: '软件互助学习小站,办公软件,OFFICE,WPS,AI，装机必备,常用软件',
   // lang: 'zh-CN',
   // base: '/', // 格式：'/<仓库名>/'， 默认'/'
   markdown: {
@@ -23,13 +23,13 @@ module.exports = {
   locales: {
     '/': {
       lang: 'zh-CN',
-      title: '零售系统应用帮助中心',  //penName + title,
-      description: '零售系统应用帮助中心,金蝶EAS,汽车4S,整车,二手车,保险,维修,会员,客服,财务,供应链,精品,应收,应付,存货核算,固定资产'
+      title: '软件互助学习小站',  //penName + title,
+      description: '软件互助学习小站,办公软件,OFFICE,WPS,AI，装机必备,常用软件'
     },
     // '/en/': {
     //   lang: 'en-US', // 将会被设置为 <html> 的 lang 属性
     //   title: penName + title,
-    //   description: 'eashelp,kingdee,eas,ctcai,auto4s'
+    //   description: 'softhub,office,wps,ai,deepseek,software'
     // }
   },
   head,

@@ -9,17 +9,17 @@
 // const frontEnd = require("../nav/frontEnd");
 // const moreNav = require("../nav/moreNav");
 const indexNav = require("../nav/indexNav");
-const eashelpfaq = require("../nav/eashelpfaq");
-const eashelpspecial = require("../nav/eashelpspecial");
-const eashelpautovm = require("../nav/eashelpautovm");
-const eashelpautoam = require("../nav/eashelpautoam");
-const eashelpautoscm = require("../nav/eashelpautoscm");
-const eashelpautorsm = require("../nav/eashelpautorsm");
-const eashelpautovip = require("../nav/eashelpautovip");
-const eashelpautocsm = require("../nav/eashelpautocsm");
-const eashelpfi = require("../nav/eashelpfi");
-const eashelpreport = require("../nav/eashelpreport");
-const eashelpbase = require("../nav/eashelpbase");
+const subnav01 = require("../nav/subnav01");
+const subnav02 = require("../nav/subnav02");
+const subnav03 = require("../nav/subnav03");
+const subnav04 = require("../nav/subnav04");
+const subnav05 = require("../nav/subnav05");
+const subnav06 = require("../nav/subnav06");
+const subnav07 = require("../nav/subnav07");
+const subnav08 = require("../nav/subnav08");
+const subnav09 = require("../nav/subnav09");
+const subnav10 = require("../nav/subnav10");
+const subnav11 = require("../nav/subnav11");
 module.exports = [
   {
     text: '首页', link: '/'
@@ -28,18 +28,18 @@ module.exports = [
   //   text: '导航站', link: '/navigation/'
   // },
   { text: '主目录', link: '/list/' },
-  eashelpfaq,   //问题集锦导航
-  eashelpspecial,  // 专项专题导航
-  eashelpautovm,   // 整车导航
-  eashelpautoam,  // 增值导航
-  eashelpautoscm,  // 精品配件导航
-  eashelpautorsm,  // 维修导航
-  eashelpautovip,  // 会员导航
-  eashelpautocsm,   // 客服导航
-  eashelpfi,   // 财务导航
-  eashelpreport,   // 报表导航
-  eashelpbase,   // 建模导航
-  { text: '旧版手册', link: '/pages/old/' },
+  subnav01,   // 导航01
+  subnav02,   // 导航02
+  subnav03,   // 导航03
+  subnav04,   // 导航04
+  subnav05,   // 导航05
+  subnav06,   // 导航06
+  subnav07,   // 导航07
+  subnav08,   // 导航08
+  subnav09,   // 导航09
+  subnav10,   // 导航10
+  subnav11,   // 导航11
+  { text: '本站', link: '/softhubweb/' },
   indexNav,   //索引导航
   // {
   //   text: '留言区', link: '/message-area/'

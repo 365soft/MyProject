@@ -1,6 +1,6 @@
 // 工具导航栏
 module.exports =  {
-  text: '维修', link: '/list/index.html#维修管理', items: [
+  text: '常用工具', link: '/list/index.html#常用工具', items: [
     {
       text: '维修-基础', items: [
         { text: '基础数据', link: '/list/index.html#维修管理-基础数据' },  

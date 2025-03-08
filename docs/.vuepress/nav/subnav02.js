@@ -1,6 +1,6 @@
 // 工具导航栏
 module.exports =  {
-  text: '客服', link: '/list/index.html#客服管理', items: [
+  text: '办公软件', link: '/list/index.html#办公软件', items: [
     {
       text: '客服-基础', items: [
         { text: '基础数据', link: '/list/index.html#客服管理-基础数据' },  

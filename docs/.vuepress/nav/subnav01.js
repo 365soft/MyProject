@@ -1,6 +1,6 @@
 // 工具导航栏
 module.exports =  {
-  text: '增值代办', link: '/list/index.html#增值代办', items: [
+  text: '装机必备', link: '/list/index.html#装机必备', items: [
     {
       text: '增值代办-基础', items: [
         { text: '基础数据', link: '/list/index.html#增值代办-基础数据' },  
