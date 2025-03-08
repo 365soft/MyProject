@@ -16,7 +16,7 @@ cd docs/.vuepress/dist
 # 如果手运行该脚本，则执行 if 里的，如果是 GitHub 自动执行该脚本，则是 else 里的
 if [ -z "$GITHUB_TOKEN" ]; then
   msg='deploy'
-  githubUrl=git@365soft.github.com:365soft/softhub.git
+  githubUrl=git@github.com:365soft/softhub.git
 else
   msg='来自 Github actions 的自动部署'
   githubUrl=https://365soft:${GITHUB_TOKEN}@365soft/365soft/softhub.git
