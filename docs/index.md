@@ -1,7 +1,7 @@
 ---
 home: true
 # heroImage: # ./img/logo.jpg
-heroText: 软件互助学习小站 #金蝶EAS系统帮助中心
+heroText: 软件互助学习小站 #SoftHub.CC
 tagline: 🚀分享、互助、学习、交流、进步！
 # actionText: 开始使用 →
 # actionLink: ./list/
