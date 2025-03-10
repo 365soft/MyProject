@@ -79,7 +79,7 @@ module.exports = {
      font-weight: bold;
      margin: 0 0 8px 0;
    ">公众号</p>
-   <img src="/easpublic/eashelpimg/ctcaierp258.jpg"  style="width:100%;" />
+   <img src="/webpublic/img/ctcaierp258.jpg"  style="width:100%;" />
    <p>
    关注公众号，获取更新推送~
    </p>
@@ -156,7 +156,7 @@ module.exports = {
   //         (adsbygoogle = window.adsbygoogle || []).push({});
   //     </script>
   //     `,
-  // sidebarB: `<div><img src="/easpublic/eashelpimg/ctcaierp.png" alt="" style="cursor: zoom-in;"></div>`,
+  // sidebarB: `<div><img src="/webpublic/img/ctcaierp.png" alt="" style="cursor: zoom-in;"></div>`,
 }
 
 

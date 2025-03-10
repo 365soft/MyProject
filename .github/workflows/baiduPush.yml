@@ -6,7 +6,7 @@ name: baiduPush
 on:
   push:
     branches:
-      - main-eashelp  #此处填源码分支，实际应为main，为避免在远程自动部署，加后缀-eashelp
+      - main-softhub  #此处填源码分支，实际应为main，为避免在远程自动部署，加后缀-softhub
   #schedule:
   #  - cron: '0 23 * * *' # https://help.github.com/en/actions/automating-your-workflow-with-github-actions/events-that-trigger-workflows#scheduled-events-schedule
 

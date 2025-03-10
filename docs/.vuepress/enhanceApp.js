@@ -36,7 +36,7 @@ Vue.use(ElementUI)
               expire = 86400000;  // 一天
             }
             if (!loginKey) {
-              loginKey = 'eashelp_login';
+              loginKey = 'softhub_login';
             }
             // 网站关闭或者刷新后，清除登录状态（不针对单个私密文章）
             if (loginSession) {
